@@ -1,11 +1,15 @@
 Package: NEWMATH4753rasm0015
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Hold MATH4753 functs
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Reagan Rasmussen
+Maintainer: Reagan Rasmussen <reagan.rasmussen@ou.edu>
+Description: MATH4753 coursework and functions from class projects.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.2
+Imports:
+    dplyr, ggplot2
